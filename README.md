@@ -1,8 +1,7 @@
-# udacity-ai-python-final-image-classifier
-This was was my final project as part of the AI Programming with Python nano degree offered through Udacity
+# PyTorch Image Classifier
+This was was my capstone project for my AI Programming with Python Nano Degree offered through Udacity.
 
-This project has two main programs that accept parameters through the command line - train.py and predict.py.
-
+The project has two main programs that accept parameters through the command line - train.py and predict.py.
 1) train.py
 Trains a neural network on a dataset and saves the model as a checkpoint.
 Usage below <> indicates expected user input.
