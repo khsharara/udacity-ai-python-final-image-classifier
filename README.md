@@ -21,9 +21,9 @@ Usage below <> indicates expected user input.
           python train.py data_dir --gpu
              
    Example call:
-    python check_images.py data_dir --arch <vgg> --dogfile <dognames.txt>
+    python check_images.py data_dir --arch <vgg>
 
-
+do
 2) predict.py
 Infer object name from an image along with the probability that the object was predicted correctly.
 The prediction uses a checkpointed model that is saved on disk.
