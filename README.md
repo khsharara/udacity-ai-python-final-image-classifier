@@ -1,8 +1,10 @@
 # PyTorch Image Classifier
 This was was my capstone project for my AI Programming with Python Nano Degree offered through Udacity.
 
-The project has two main programs that accept parameters through the command line - train.py and predict.py.
-1) train.py
+## Main scripts
+The project has two main scripts that accept parameters through the command line - train.py and predict.py.
+
+### 1) train.py
 Trains a neural network on a dataset and saves the model as a checkpoint.
 Usage below <> indicates expected user input.
       Basic usage:
@@ -21,9 +23,8 @@ Usage below <> indicates expected user input.
              
    Example call:
     python check_images.py data_dir --arch <vgg>
-
-do
-2) predict.py
+      
+### 2) predict.py
 Infer object name from an image along with the probability that the object was predicted correctly.
 The prediction uses a checkpointed model that is saved on disk.
 Usage below <> indicates expected user input.
